@@ -28,6 +28,13 @@
 
 </template>
 
-<style scoped>
-
+<style >
+     .container{
+        width : 80%;
+        height: 100%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+   }
 </style>

@@ -64,17 +64,14 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     .wrapper {
         width : 100%;
         height : 100px;
     }
 
-   .container{
-        width : 80%;
-        display: flex;
-        margin: 0 auto;
-        justify-content: space-between;
+   .img-wrapper img{
+        width: 80px;
    }
 
    nav ul{
