@@ -30,5 +30,6 @@ export default {
         width: 100%;
         height: 130px;
         background-color: #0282f9;
+        
     }
 </style>

@@ -20,6 +20,9 @@
 
                 </ul>
             </div>
+            <div class="logo-wrapper">
+                <img src="../assets/img/dc-logo-bg.png" alt="">
+            </div>
         </div>
     </section>
     <section class="bottom-footer">
@@ -122,7 +125,9 @@ export default {
 <style>
     .top-footer{
         background-image: url('../assets/img/footer-bg.jpg');
-        background-size: cover;    
+        background-size: cover;
+        position: relative;
+        
     }
 
     .footer-links{
@@ -149,5 +154,16 @@ export default {
         text-transform: uppercase;
         font-size: 1.2rem;
         margin: 1rem 0;
+    }
+
+    .logo-wrapper{
+        position: absolute;
+        left: 60%;
+    }
+
+    .bottom-footer{
+        height: 150px;
+        background-color: #303030;
+        position: relative;
     }
 </style>
