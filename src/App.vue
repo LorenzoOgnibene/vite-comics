@@ -1,7 +1,16 @@
-<script setup>
-import HeaderComics from './components/HeaderComics.vue';
-import MainComics from './components/MainComics.vue';
-import FooterComics from './components/FooterComics.vue';
+<script >
+  import HeaderComics from './components/HeaderComics.vue';
+  import MainComics from './components/MainComics.vue';
+  import FooterComics from './components/FooterComics.vue';
+  
+  export default {
+      components:{
+        HeaderComics,
+        MainComics,
+        FooterComics,
+      }
+  }
+  
 </script>
 
 <template>
