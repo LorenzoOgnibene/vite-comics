@@ -6,7 +6,7 @@
             </div>
             <nav>
                 <ul>
-                    <li v-for="items in navItems">{{ items.text.toUpperCase() }}</li>
+                    <li v-for="items in navItems" :class="items.active ? 'active' : ''">{{ items.text.toUpperCase() }}</li>
                 </ul>
             </nav>
         </div>
@@ -82,5 +82,9 @@ export default {
    ul li{
     padding: 2.3rem .5rem;
     border-bottom: .5rem solid transparent;
+   }
+
+   .active{
+    border-bottom: .5rem solid #0282f9;
    }
 </style>
