@@ -6,7 +6,7 @@
             </div>
             <nav>
                 <ul>
-                    <li v-for="items in navItems">{{ items.text }}</li>
+                    <li v-for="items in navItems">{{ items.text.toUpperCase() }}</li>
                 </ul>
             </nav>
         </div>
@@ -77,5 +77,10 @@ export default {
    nav ul{
     display: flex;
     list-style-type: none;
+   }
+
+   ul li{
+    padding: 2.3rem .5rem;
+    border-bottom: .5rem solid transparent;
    }
 </style>

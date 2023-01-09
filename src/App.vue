@@ -28,7 +28,7 @@
 
 </template>
 
-<style >
+<style>
      .container{
         width : 80%;
         height: 100%;
