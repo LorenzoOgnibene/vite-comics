@@ -58,64 +58,64 @@ export default {
                 },
             ],
             dc:[
-                    {
-                        text: 'Terms Of Use'
-                    },
-                    {
-                        text: 'Privacy policy (News)'
-                    },
-                    {
-                        text: 'Ad Chpoces'
-                    },
-                    {
-                        text: 'Advertising'
-                    },
-                    {
-                        text: 'Jobs'
-                    },
-                    {
-                        text: 'Subscriptions'
-                    },
-                    {
-                        text: 'Talent Workshops'
-                    },
-                    {
-                        text: 'CPSC Certificates'
-                    },
-                    {
-                        text: 'Ratings'
-                    },
-                    {
-                        text: 'Shop Help'
-                    },
-                    {
-                        text: 'Contact Us'
-                    },
+                {
+                    text: 'Terms Of Use'
+                },
+                {
+                    text: 'Privacy policy (News)'
+                },
+                {
+                    text: 'Ad Chpoces'
+                },
+                {
+                    text: 'Advertising'
+                },
+                {
+                    text: 'Jobs'
+                },
+                {
+                    text: 'Subscriptions'
+                },
+                {
+                    text: 'Talent Workshops'
+                },
+                {
+                    text: 'CPSC Certificates'
+                },
+                {
+                    text: 'Ratings'
+                },
+                {
+                    text: 'Shop Help'
+                },
+                {
+                    text: 'Contact Us'
+                },
             ],
             sites:[
-                    {
-                        text: 'DC'
-                    },
-                    {
-                        text: 'MAD Magazine'
-                    },
-                    {
-                        text: 'DC Kids'
-                    },
-                    {
-                        text: 'DC Universe'
-                    },
-                    {
-                        text: 'DC Power Visa'
-                    },
+                {
+                    text: 'DC'
+                },
+                {
+                    text: 'MAD Magazine'
+                },
+                {
+                    text: 'DC Kids'
+                },
+                {
+                    text: 'DC Universe'
+                },
+                {
+                    text: 'DC Power Visa'
+                },
             ],
             shop:[
-                    {
-                        text: 'Shop DC'
-                    },
-                    {
-                        text: 'Shop DC Collectibles'
-                    },
+                {
+                    text: 'Shop DC'
+                },
+                {
+                    text: 'Shop DC Collectibles'
+                },
             ],
         }
     },
@@ -127,7 +127,6 @@ export default {
         background-image: url('../assets/img/footer-bg.jpg');
         background-size: cover;
         position: relative;
-        
     }
 
     .footer-links{
@@ -139,7 +138,6 @@ export default {
     ul{
         list-style-type: none;
         margin-right: 1.5rem;
-
     }
 
     ul li{

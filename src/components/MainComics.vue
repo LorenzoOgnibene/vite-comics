@@ -1,4 +1,13 @@
+<script>
+    import MainJumbotron from './MainJumbotron.vue';
+    export default {
+            components:{
+                MainJumbotron
+            }
+    }
+</script>
 <template>
+    <MainJumbotron />
     <div class="wrapper-top">
         <div class="container">
             <h1> --> Content goes here </h1>
@@ -9,11 +18,6 @@
     </div>
 </template>
 
-<script>
-export default {
-    
-}
-</script>
 
 <style scoped>
     .wrapper-top{

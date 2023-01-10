@@ -14,17 +14,17 @@
 </script>
 
 <template>
-<header>
-  <HeaderComics />
-</header>
+  <header>
+    <HeaderComics />
+  </header>
 
-<main>
-  <MainComics />
-</main>
+  <main>
+    <MainComics />
+  </main>
 
-<footer>
-  <FooterComics />
-</footer>
+  <footer>
+    <FooterComics />
+  </footer>
 
 </template>
 
