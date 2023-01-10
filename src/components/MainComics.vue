@@ -106,6 +106,7 @@
     .wrapper-top{
         width: 100%;
         background-color: #1c1c1c;
+        padding: 8rem 0;
     }
     .card-wrapper{
         display: flex;

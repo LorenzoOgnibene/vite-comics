@@ -157,6 +157,7 @@ export default {
     .logo-wrapper{
         position: absolute;
         left: 60%;
+        top: 0;
     }
 
     .bottom-footer{
